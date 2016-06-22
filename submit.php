@@ -1,0 +1,1 @@
+<h1 style="text-align: center;">Thank you! Your form has been submitted.</h1>
