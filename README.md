@@ -32,18 +32,18 @@ You can add more attributes to array and modify the class HtmlElements.php as pe
 To generate radio/checkbox use the following code:
 
 ```php
-    echo HtmlElements::generateRadioButtonOrCheckBoxGroup(array(
-        'name' => 'gender',
-        'type' => 'radio',
-        'class' => 'radio-inline',
-        'options' => array(
-            '1' => 'Male',
-            '2' => 'Female'
-        ),
-        'label' => TRUE, // If set to true, it will add label tag 
-        'checked' => array(),
-        'required' => 'required'
-    ));
+echo HtmlElements::generateRadioButtonOrCheckBoxGroup(array(
+'name' => 'gender',
+'type' => 'radio',
+'class' => 'radio-inline',
+'options' => array(
+    '1' => 'Male',
+    '2' => 'Female'
+),
+'label' => TRUE, // If set to true, it will add label tag 
+'checked' => array(),
+'required' => 'required'
+));
   ```
 
 name = Name of the radio/checkbox
