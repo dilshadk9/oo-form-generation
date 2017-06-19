@@ -7,7 +7,7 @@ Download and unzip the folder.
 ## Usage
 To generate textbox/password/buttons use the following code:
 
-    <?php
+    ```php
     echo HtmlElements::generateTextBoxOrButton(array(
     'name' => 'name',
     'id' => 'name',
@@ -17,7 +17,7 @@ To generate textbox/password/buttons use the following code:
     'value' => NULL,
     'required' => 'required'        
     ));
-    ?>
+    ```
 
     name = Name of the field/button
     id = Id of the field/button
@@ -31,7 +31,7 @@ You can add more attributes to array and modify the class HtmlElements.php as pe
 
 To generate radio/checkbox use the following code:
 
-    <?php
+    ```php
         echo HtmlElements::generateRadioButtonOrCheckBoxGroup(array(
             'name' => 'gender',
             'type' => 'radio',
@@ -44,7 +44,7 @@ To generate radio/checkbox use the following code:
             'checked' => array(),
             'required' => 'required'
         ));
-      ?>
+      ```
 
     name = Name of the radio/checkbox
     type = radio/checkbox
@@ -56,7 +56,7 @@ To generate radio/checkbox use the following code:
     
 To generate dropdown use the below code:
 
-    <?php
+    ```php
     echo HtmlElements::generateDropdown(array(
     'name' => 'country',
     'id' => 'country',
@@ -70,7 +70,7 @@ To generate dropdown use the below code:
     'selected' => NULL,
     'required' => 'required'    
     ));
-    ?>
+    ```
     
     name = Name of the dropdown
     id = Id of the dropdown
